@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.SqlBuilder" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utilities\Mandiri.MiniProject.Utilities\Mandiri.MiniProject.Utilities.csproj" />
+    <ProjectReference Include="..\EventManagementApp.Data\EventManagementApp.Data.csproj" />
+  </ItemGroup>
+
+</Project>
